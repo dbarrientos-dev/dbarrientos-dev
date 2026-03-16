@@ -121,6 +121,28 @@ const daniel = {
 
 ---
 
+## 💻 Cómo ejecutar localmente (Fedora Linux)
+
+Si deseas modificar, contribuir o simplemente ejecutar las herramientas del repositorio (como el linter de markdown) de forma local, sigue estos pasos:
+
+1. **Instalar dependencias globales (si no las tienes):**
+   ```bash
+   sudo dnf update
+   sudo dnf install git make nodejs npm
+   ```
+2. **Clonar este repositorio y preparar el entorno:**
+   ```bash
+   git clone https://github.com/dbarrientos-dev/dbarrientos-dev.git
+   cd dbarrientos-dev
+   make install
+   ```
+3. **Ejecutar el validador (Linter):**
+   ```bash
+   make lint
+   ```
+
+---
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />

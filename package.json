@@ -1,0 +1,13 @@
+{
+  "name": "dbarrientos-dev",
+  "version": "1.0.0",
+  "description": "Portafolio de perfil para GitHub",
+  "scripts": {
+    "lint": "markdownlint \"**/*.md\" --ignore node_modules",
+    "test": "echo \"Running minimal validation tests...\" && npm run lint"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0"
+  },
+  "license": "MIT"
+}
