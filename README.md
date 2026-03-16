@@ -109,6 +109,138 @@ const daniel = {
 
 ---
 
+## 💻 Entorno — Fedora Linux + KDE Plasma
+
+<div align="center">
+
+![Fedora](https://img.shields.io/badge/Fedora_Linux-294172?style=for-the-badge&logo=fedora&logoColor=white)
+![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+![KDE Plasma](https://img.shields.io/badge/KDE_Plasma_6-1D99F3?style=for-the-badge&logo=kde&logoColor=white)
+![RPM](https://img.shields.io/badge/RPM_Package_Manager-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+> *🎩 Fedora no es solo un sistema operativo — es el laboratorio donde el software de mañana se prueba hoy.*
+
+</div>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║      🎩 Fedora Linux — La vanguardia de Red Hat Enterprise       ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║   Fedora  ──►  RHEL  ──►  CentOS Stream  ──►  Rocky / AlmaOS    ║
+║                                                                  ║
+║        La cadena de innovación del ecosistema enterprise         ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+### ✨ ¿Por qué Fedora?
+
+<div align="center">
+
+| Característica | Por qué importa |
+|:---|:---|
+| 🚀 **Cutting-edge** | Siempre en el kernel y paquetes más recientes — primero en adoptar las últimas versiones |
+| 🏢 **Respaldado por Red Hat** | Upstream oficial de RHEL, el OS #1 en servidores enterprise del mundo |
+| 🔒 **SELinux por defecto** | Seguridad de nivel enterprise activada desde el primer arranque |
+| 📦 **DNF5 + RPM** | Gestor de paquetes transaccional, robusto y con rollback incorporado |
+| 🐧 **100% Free & Open Source** | Sin blobs privativos por defecto — filosofía GNU pura y dura |
+| 🔬 **Fedora Labs** | Ediciones especializadas: Scientific, Security, Design Suite, Astronomy |
+| ⚡ **Wayland-first** | Display server moderno con soporte completo desde el primer boot |
+| 🪐 **KDE Plasma Spin** | Escritorio potente, configurable y visualmente superior al promedio |
+
+</div>
+
+<br/>
+
+### 🖥️ Mi Setup
+
+<div align="center">
+
+```yaml
+╭─────────────────────────────────────────────╮
+│                  dbarrientos@fedora          │
+├─────────────────────────────────────────────┤
+│  OS          Fedora Linux  🎩               │
+│  DE          KDE Plasma 6  🪐               │
+│  WM          KWin (Wayland)                 │
+│  Shell       Bash / Zsh                     │
+│  Editor      VS Code  +  Neovim             │
+│  Terminal    Konsole                        │
+│  Packages    DNF5  ·  Flatpak  ·  RPM Fusion│
+│  Theme       Tokyo Night  (dark, always)    │
+╰─────────────────────────────────────────────╯
+```
+
+</div>
+
+<br/>
+
+### ⚡ Ejecutar este proyecto en Fedora
+
+**① Instalar dependencias del sistema**
+
+```bash
+# Un solo comando para tener todo listo
+sudo dnf update -y && sudo dnf install -y \
+  git make nodejs npm python3 python3-pip gcc
+```
+
+**② Clonar y preparar el entorno**
+
+```bash
+git clone https://github.com/dbarrientos-dev/dbarrientos-dev.git
+cd dbarrientos-dev
+make install
+```
+
+**③ Validar con el linter**
+
+```bash
+make lint
+```
+
+**④ Correr los tests**
+
+```bash
+make test
+```
+
+<br/>
+
+<div align="center">
+
+> 💡 **Fedora tip:** Activa RPM Fusion para herramientas extra de desarrollo:
+> ```bash
+> sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+> sudo dnf groupinstall "Development Tools" "C Development Tools and Libraries"
+> ```
+
+</div>
+
+<div align="center">
+<br/>
+
+![Powered by Fedora](https://img.shields.io/badge/Powered%20by-Fedora%20Linux-294172?style=flat-square&logo=fedora&logoColor=white)
+![Built on Red Hat](https://img.shields.io/badge/Built%20on-Red%20Hat%20ecosystem-EE0000?style=flat-square&logo=redhat&logoColor=white)
+![KDE](https://img.shields.io/badge/Desktop-KDE%20Plasma%206-1D99F3?style=flat-square&logo=kde&logoColor=white)
+![Wayland](https://img.shields.io/badge/Display-Wayland-FF8800?style=flat-square&logo=wayland&logoColor=white)
+
+<sub>🎩 Orgullosamente corriendo en <strong>Fedora Linux</strong> — donde el open source se convierte en enterprise.</sub>
+
+</div>
+
+---
+
 ## 📬 Contacto
 
 <div align="center">
@@ -118,28 +250,6 @@ const daniel = {
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dbarrientos-dev)
 
 </div>
-
----
-
-## 💻 Cómo ejecutar localmente (Fedora Linux)
-
-Si deseas modificar, contribuir o simplemente ejecutar las herramientas del repositorio (como el linter de markdown) de forma local, sigue estos pasos:
-
-1. **Instalar dependencias globales (si no las tienes):**
-   ```bash
-   sudo dnf update
-   sudo dnf install git make nodejs npm
-   ```
-2. **Clonar este repositorio y preparar el entorno:**
-   ```bash
-   git clone https://github.com/dbarrientos-dev/dbarrientos-dev.git
-   cd dbarrientos-dev
-   make install
-   ```
-3. **Ejecutar el validador (Linter):**
-   ```bash
-   make lint
-   ```
 
 ---
 
