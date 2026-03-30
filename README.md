@@ -1,7 +1,3 @@
-# ══════════════════════════════════════════════════════
-#  VERSIÓN PRINCIPAL — Profesional, limpio, con carácter
-# ══════════════════════════════════════════════════════
-
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Daniel%20Barrientos&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=dbarrientos-dev%20%7C%20he%2Fhim&descAlignY=51&descAlign=50" />
 </div>
